@@ -1,0 +1,39 @@
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+.container {
+    width: 450px;
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+form {
+    margin: 0 auto;
+}
+
+body { background: url(car4.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       background-attachment: fixed;
+}
+
+.form-label {
+color: rgb(134, 60, 60);
+font-size: 20px;
+}
+
+.mb-3.error input {
+    border-color: var(--error-color);
+}
+
+.mb-3.success input {
+    border-color: var(--success-color);
+}
